@@ -1,0 +1,42 @@
+.blogs {
+}
+
+.blog-card {
+  &__title {
+    font-size: 32px;
+    color: #666666;
+  }
+  &__info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eeeeee;
+  }
+  &__icon {
+    color: #1fa67a;
+    margin-right: 5px;
+  }
+
+  &__body{
+    padding: 20px 0;
+    display: flex;
+  }
+
+  &__image{
+    display: inline-block;
+    height: 210px;
+    // width: 410px;
+    // width: 100%;
+    padding: 5px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    img{
+      object-fit: fill;
+      aspect-ratio: 16 / 9;
+      // width: 100%;
+      // height: 100%;
+    }
+  }
+}

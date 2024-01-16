@@ -1,0 +1,23 @@
+.woo-commerce{
+  background-color: #1fa67a;
+  padding: 30px;
+
+  &__wrapper{
+    display: flex;
+  }
+
+  &__text{
+    font-size: 22px;
+    color: white;
+    line-height: 55px;
+  }
+
+  &__button{
+    margin: 0 auto;
+    line-height: 55px;
+    padding: 0 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+  }
+}
